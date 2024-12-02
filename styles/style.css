@@ -1,0 +1,77 @@
+
+/* Montserrat */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Oswald */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+/* Playfair Display */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#g_fonts{
+    margin: 20px 30px;
+    width: 600px;
+
+}
+
+#g_fonts > h1{
+    background-color: powderblue;
+    padding: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+
+#g_fonts > p{
+    margin-top: 10px;
+    font-family: "Playfair Display", serif;
+}
+
+#l_height{
+    margin: 0 30px;
+    width: 600px;
+}
+
+#l_height > h2{
+    font-family: "Oswald", sans-serif;
+    background-color: darkseagreen;
+    width: 600px;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#l_height > p{
+    font-weight: 200;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.8;
+}
+
+#l_spacing{
+    width: 600px;
+    /* margin: auto; */
+    margin: 20px 0 0 30px;
+}
+
+#l_spacing > h2{
+    font-family: cursive;
+    background-color: darkcyan;
+    padding: 15px;
+    text-align: end;
+}
+
+#l_spacing > p{
+    margin-top: 10px;
+    letter-spacing: 3px;
+    
+}
